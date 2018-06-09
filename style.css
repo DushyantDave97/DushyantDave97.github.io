@@ -1,0 +1,43 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	
+}
+
+body {
+	font-family: 'Sunflower', sans-serif;
+}
+
+header.startup {
+	background-position: center;
+	background-image: url("img1.png");
+	background-size: cover;
+	height: 100%;
+}
+
+hr {
+	color: red;
+}
+img {
+	width: 250px;
+	height: 200px;
+	transition: 0.5s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+button {
+	margin-top: 16px;
+}
+
+.btn {
+	border-radius: 250px;
+}
+
+.foot-er {
+	margin-top: 8px;
+	font-size: 1.5em;
+}
